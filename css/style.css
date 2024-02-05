@@ -1,0 +1,267 @@
+body{
+	background-color: #282828;
+	overflow-x: hidden;
+}
+.container{
+	width: 1200px;
+	min-height: 500px;
+	margin: 0px auto;
+}
+.header{
+	width: 100%;
+	height: 500px
+}
+.menu{
+	display: block;
+	height: 25px;
+	width: 100%;
+	border-bottom: 1px solid red;
+	padding: 0;
+}
+.name, .mn-els{
+	height: 25px;
+	width: 450px;
+	display: inline-block;
+}
+
+h1{
+	font-size: 19px;
+	font-family: sans-serif;
+	color: #fff;
+}
+.mn-el{
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	margin-left: 30px;
+}
+.mn-el p{
+	font-size: 19px;
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.mn-el p:hover{
+	box-shadow: 0px 3px 0px #fff;
+}
+.location{
+	width: 200px;
+	height: 100%;
+	float: right;
+}
+.location a{
+	font-size: 19px;
+	font-family: sans-serif;
+	text-align: right;
+	text-decoration: none;
+	color: #fff;
+}
+.inf{
+	width: 100%;
+	height: 400px;
+	display: flex;
+}
+.txt{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+.txt h2{
+	text-align: left;
+	color: #AC2020;
+	font-size: 40px;
+	margin-top: 40px;
+	font-family: sans-serif;
+}
+.txt p{
+	margin-top: 50px;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 17px
+}
+#btn{
+	width: 218px;
+	height: 83px;
+	background-color: #ac2020;
+	color: #fff;
+	font-size: 19px;
+	font-family: sans-serif;
+	margin-top: 40px;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.5s
+}
+#btn:hover{
+	box-shadow: 0px 0px 37px #AC2020
+}
+.img{
+	height: 100%;
+	width: 70%;
+}
+.img img{
+	width: 250px;
+	margin-top: 20px;
+	margin-left: 20px;
+	transition: .25s;
+}
+.img img:hover{
+	transform: scale(1.5);
+}
+.content{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+}
+.btn-s{
+	width: 30%;
+	height: 100%;
+}
+.btn-s h2{
+	font-family: sans-serif;
+	font-size: 23px;
+	color: #fff;
+}
+.btn-f{
+	width: 350px;
+	height: 86px;
+	background-color: #D9D9D9;
+	border: none;
+	margin-top: 30px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.comments{
+	width: 70%;
+	height: 100%;
+}
+.block{
+	margin-top: 50px;
+	margin-left: 45px;
+	height: 76px;
+	width: 100%;
+	display: flex;
+}
+.ellipse{
+	width: 76px;
+	height: 76px;
+	border-radius: 100%;
+	background-color: #D9D9D9;
+	display: inline-block;
+
+}
+.ellipse p{
+	text-align: center;
+	position: relative;
+	top: 30px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.comment{
+	height: 100%;
+	min-width: 500px;
+	margin-left: 15px
+}
+.comment p{
+	color: #fff;
+	font-size: 17px;
+	font-family: sans-serif;
+	margin-top: 29px
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #AC202080;
+	display: flex;
+	margin-top: 30px;
+}
+.contacts, .my-img, .resume{
+	width: 33%;
+	height: 100%;
+}
+.phone, .email{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 110px;
+	margin-top: 70px
+}
+.resume p{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 200px;
+}
+#contact-window{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	visibility: hidden;
+}
+#close{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#close p{
+	font-size: 37px;
+	color: #fff;
+	cursor: pointer;
+}
+.win-f{
+	width: 600px;
+	height: 100%;
+	background-color: #282828;
+	margin: 0px auto;
+}
+.win-f form{
+	margin: 100px auto;
+	width: 80%;
+	height: 500px;
+}
+.data{
+	width: 100%;
+	height: 45px;
+	border: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 45px;
+	color: #AC2020;
+	background: none;
+	border: 1px solid #AC2020;
+	outline: none;
+	transition: .5s
+}
+.data:focus{
+	box-shadow: 0 0 30px #AC2020
+}
+#sendButton{
+	width: 150px;
+	height: 45px;
+	margin: 0px auto;
+	margin-top: 45px;
+	display: block;
+	color: #fff;
+	background: none;
+	border: 1px solid #AC2020;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: sans-serif;
+	transition: 0.5s;
+}
+#sendButton:hover{
+	background-color: #AC2020;
+	box-shadow: 0 0 35px #AC2020
+}
+.open-menu{
+	display: none;
+	top: 0;
+	right: 0;
+	font-size: 18px;
+	color: #fff;
+}
